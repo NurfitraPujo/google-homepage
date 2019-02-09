@@ -1,0 +1,37 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/*header*/
+#header {
+    display: block;
+    width: 40%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+}
+
+.google-logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+#search-bar {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.1);
+}
