@@ -6,16 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Google</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
-    <script src="main.js"></script>
-</head>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css">
 
 <body>
-    <header id="header">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"
-            class="google-logo">
-        <input type="search" name="Search" id="search-bar">
-    </header>
-</body>
+    <nav id="site-nav">
+        <div class="nav-wrapper">
+            <ul>
+                <li class="nav-item"><a href="#">Gmail</a></li>
+                <li class="nav-item"><a href="#">Images</a></li>
+            </ul>
+            <div class="nav-item">
+                <a href="#" class="gapps gs"></a>
+            </div>
+            <div class="nav-item">
+                <a href="#" class="notif gs"></a>
+            </div>
+            <div class="nav-item">
+                <a href="#" class="profile">
+                    <span class="profil-img"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main id="main">
+        <div class="search-wrapper">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="Google Logo" class="google-logo">
+            <input type="search" name="Search" id="search-bar">
+            <div class="button-wrapper">
+                <button type="submit" class="btn" value="">Google Search</button>
+                <button type="submit" class="btn" value="">I'm feeling lucky</button>
+            </div>
+        </div>
+    </main>
 
 </html>
